@@ -1,0 +1,32 @@
+.aboutUs{
+    display: grid;
+    background-color: #EFF2F5;
+    gap: 5rem;
+    grid-template-columns:5% 1fr 1fr 5%;
+    color: #485064;
+    padding: 10rem 0;
+}
+
+.aboutUs-left{
+    grid-column: 2;
+}
+
+.aboutUs .superscript{
+    color: #767C90;
+    letter-spacing: 0.3rem;
+}
+
+.aboutUs .title{
+    margin: 0.5rem 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.aboutTeam{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.aboutUs img{
+    height: 25rem;
+}

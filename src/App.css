@@ -1,0 +1,9 @@
+.home{
+    background-color: #000000;
+    color: white;
+    height: fit-content;
+    background-image: url(./Images/Home-background.png);
+    background-repeat: repeat;
+}
+
+

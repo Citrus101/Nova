@@ -1,0 +1,21 @@
+.Hero{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Hero > h1{
+    width: inherit;
+    text-align: center;
+    width: 10em;
+    font-family: Inter;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+
+}
+
+.Hero > img{
+    width: 400px;
+    padding-bottom:40px ;
+}

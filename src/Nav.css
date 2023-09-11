@@ -1,0 +1,31 @@
+.Nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    padding:2rem 5rem;
+    gap: 2em;
+
+}
+
+.Nav-logo{
+    height: auto;
+    width: 10rem;
+}
+
+.Nav-links{
+    grid-column: 3/5;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:2em;
+    font-size: 20px;
+    
+}
+
+.Nav-links > div{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    flex-shrink: 0;
+    gap: .5em;
+    
+}
