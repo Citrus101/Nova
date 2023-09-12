@@ -1,6 +1,6 @@
 .Nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding:2rem 5rem;
     gap: 2em;
 
@@ -15,9 +15,10 @@
     grid-column: 3/5;
     display: flex;
     align-items:center;
-    justify-content: space-between;
-    gap:2em;
+    justify-content: space-around;
+    /* gap:2em; */
     font-size: 20px;
+    margin-left: 5rem;
     
 }
 
@@ -27,5 +28,13 @@
     width: fit-content;
     flex-shrink: 0;
     gap: .5em;
-    
+}
+
+.Nav-links div{
+    transition-duration: 0.5s;
+    cursor:pointer;
+}
+
+.Nav-links div:hover{
+    transform: scale(1.2);
 }

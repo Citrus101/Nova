@@ -3,6 +3,7 @@ import logo from "./Images/Nova-logo.png";
 import home from "./Images/Home.png";
 import about from "./Images/About-us.png";
 import contact from "./Images/Contact-us.png";
+import team from "./Images/Team.png"
 import "./Nav.css";
 
 export const Nav = () => {
@@ -15,7 +16,7 @@ export const Nav = () => {
 
   function scrollContact() {
     window.scroll({
-      top: 800,
+      top: 1000*1000,
       behavior: "smooth",
     });
   }
@@ -26,16 +27,21 @@ export const Nav = () => {
       <div className="Nav-links">
         <div>
           <img src={home} alt="earth logo" />
-          <p>Home</p>
+          <a>Home</a>
+        </div>
+        <div>
+          <img src={team} alt="Astronaut logo" />
+          <a>Team</a>
         </div>
         <div>
           <img src={about} alt="blackhole logo" />
-          <p onClick={scrollAbout}> About Us</p>
+          <a onClick={scrollAbout}> About Us</a>
         </div>
         <div>
           <img src={contact} alt="Reciever logo" />
-          <p onClick={scrollContact}>Contact Us</p>
+          <a onClick={scrollContact}>Contact Us</a>
         </div>
+        
       </div>
     </div>
   );
